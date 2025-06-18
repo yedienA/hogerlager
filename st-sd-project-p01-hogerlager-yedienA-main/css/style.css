@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.dices {
+  padding: 10px;
+  column-count: 5;
+  column-fill: balance;
+}
+
+.headings {
+  padding: 10px;
+  column-count: 5;
+  column-fill: balance;
+}
+
+.credits {
+  column-count: 5;
+  column-fill: balance;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.dices-computer-player {
+  column-count: 2;
+}
+
+.dices-player {
+  column-count: 2;
+}
+
+.message {
+  column-count: 3;
+  column-fill: balance;
+}
+
+.controls {
+  padding: 10px;
+  column-count: 12;
+  column-fill: balance;
+}
+
+.dice {
+  font-size: 64pt;
+}
+
+button {
+  width: 100%;
+}
+body {
+  background-color: gray;
+  text-align: center;
+}
+
+.dices {
+  justify-content: center;
+  display: flex;
+  font-size: 64px;
+}
+
+.container {
+ color: rgb(0, 0, 0);
+  margin-top: 200px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 20px;
+ 
+  background-color: rgba(209, 237, 245, 0.384)
+  ;
+}
+
+
+
+body{
+background-size: cover;
+    background-image: url(image/Calming-Wallpaper-HD-Free-download.jpg) 
+}
+
+
+.lowerButton, .reset, .higherButton, .gooi{
+  background-color: blue;
+  color: aliceblue;
+  font-size: 18px;
+border-radius: 10px;
+width: 100px;
+padding: 5px;
+}
